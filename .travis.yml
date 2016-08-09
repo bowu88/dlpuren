@@ -8,3 +8,5 @@ install:
 sudo: false
 matrix:
     fast_finish: true
+script:
+    - python manage.py test
